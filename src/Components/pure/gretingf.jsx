@@ -15,7 +15,7 @@ const Gretff=(props)=>{
         <div>
             <button onClick={cumple}>
                 Cumplir años 
-            </button>
+            </button>|
         </div>
         </div>)
 }
