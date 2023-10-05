@@ -71,7 +71,7 @@ const Ejemplo2=()=>{
          <h2>Contador 2 : {contador2}</h2>
          {/*Elemento Referenciado */ }
          <h4 ref={miRef}>
-             Ejemplo de elemento referenciado
+             Ejemplo de elemento referenciadodddddddd
          </h4>
 
          <div>

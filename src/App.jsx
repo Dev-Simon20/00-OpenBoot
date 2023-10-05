@@ -6,6 +6,7 @@ import './App.css'
 import Gretff from './Components/pure/gretingf'
 import Ejemplo1 from './hooks/Ejmplo1'
 import Ejemplo2 from './hooks/Ejemplo2'
+import MiComponenteConContexto from './hooks/Ejemplo3'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function App() {
       <Gretff name={'Jeampierk'}/>
        <TaskList></TaskList> */}
        {/* <Ejemplo1/> */}
-       <Ejemplo2></Ejemplo2>
+       {/* <Ejemplo2></Ejemplo2> */}
+       <MiComponenteConContexto></MiComponenteConContexto>
     </>
   )
 }
