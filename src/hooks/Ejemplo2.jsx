@@ -30,16 +30,27 @@ const Ejemplo2=()=>{
     /**
      * Trabajndo con UseEffect
      * 
-     * Caso1= Ejecutar siempre un snippet de codigo
-     * Cada vex que haya un cambio en el estado del componente
+     * Caso1= Ejecutar siempre un script de codigo
+     * Cada veZ que haya un cambio en el estado del componente
      * se ejecute lo que esta dentro del useEffect()
      */
 
+    // useEffect(()=>{
+    //     console.log('CAMBIO EN EL ESTADO DEL COMPONENETE');
+    //     console.log('Mostrando Referencia a elemto del Dom');
+    //     console.log(miRef);
+    // })
+
+    /**
+     * Caso2= Se ejecutara SOLO CUANDO CAMBVIE EL CONTADOR 1
+     * en caso de que cambie contado 2 no habra cambio
+     */
+
     useEffect(()=>{
-        console.log('CAMBIO EN EL ESTADO DEL COMPONENETE');
+        console.log('CAMBIO EN EL ESTADO DEL CONTADOR 1');
         console.log('Mostrando Referencia a elemto del Dom');
         console.log(miRef);
-    })
+    },[contador])
 
     return(<>
          
