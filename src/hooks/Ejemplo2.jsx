@@ -46,11 +46,23 @@ const Ejemplo2=()=>{
      * en caso de que cambie contado 2 no habra cambio
      */
 
+    // useEffect(()=>{
+    //     console.log('CAMBIO EN EL ESTADO DEL CONTADOR 1');
+    //     console.log('Mostrando Referencia a elemto del Dom');
+    //     console.log(miRef);
+    // },[contador]) 
+
+
+    /**
+     * Caso3= Se ejecutara Cuando caambie el contador1 o el contador 2
+     */
+
     useEffect(()=>{
-        console.log('CAMBIO EN EL ESTADO DEL CONTADOR 1');
+        console.log('CAMBIO EN EL ESTADO DEL CONTADOR 1 O CONTADOR 2');
         console.log('Mostrando Referencia a elemto del Dom');
         console.log(miRef);
-    },[contador])
+    },[contador,contador2])
+
 
     return(<>
          
