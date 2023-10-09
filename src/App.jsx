@@ -9,8 +9,11 @@ import Ejemplo2 from './hooks/Ejemplo2'
 import MiComponenteConContexto from './hooks/Ejemplo3'
 import Ejemplo4 from './hooks/Eejmplo4'
 import CicloLife from './hooks/Ciclovida/jon-LifeCicle'
+import Reloj from './hooks/Ciclovida/Reloj'
+import AjaxHooks from './hooks/EejmplosMircha/AjaxHooks'
 
 function App() {
+  document.body.style.backgroundColor = '#4586e9';
   const [count, setCount] = useState(0)
 
   return (
@@ -30,7 +33,10 @@ function App() {
           Contenido del Children
         </h3>
        </Ejemplo4> */}
-       <CicloLife></CicloLife>
+       {/* <CicloLife></CicloLife> */}
+       {/* <Reloj></Reloj> */}
+       <AjaxHooks></AjaxHooks>
+      
 
        
     </>
