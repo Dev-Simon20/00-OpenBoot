@@ -12,6 +12,7 @@ import CicloLife from './hooks/Ciclovida/jon-LifeCicle'
 import Reloj from './hooks/Ciclovida/Reloj'
 import AjaxHooks from './hooks/EejmplosMircha/AjaxHooks'
 import { Carrusel } from './hooks/Carrusel/Carrusel'
+import { HookPerso } from './hooks/HooksPers/HookPerso'
 
 function App() {
   document.body.style.backgroundColor = '#4586e9';
@@ -37,7 +38,8 @@ function App() {
        {/* <CicloLife></CicloLife> */}
        {/* <Reloj></Reloj> */}
        {/* <AjaxHooks></AjaxHooks> */}
-       <Carrusel></Carrusel>
+       {/* <Carrusel></Carrusel> */}
+       <HookPerso></HookPerso>
       
 
        

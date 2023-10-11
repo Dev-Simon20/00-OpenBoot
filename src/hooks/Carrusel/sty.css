@@ -1,4 +1,15 @@
-.ig{
-    height: 200px;
-    height: 200px;
-}
+.carrusel {
+    width: 700px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Ajusta la altura según tus necesidades */
+    transition: opacity 3s ease-in-out; /* Transición de opacidad de 3 segundos */
+  }
+  
+  .carrusel img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .ig {
+    transition: opacity 3s ease-in-out; /* Transición de opacidad de 3 segundos para la clase ig */
+  }
