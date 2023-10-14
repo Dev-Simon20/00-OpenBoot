@@ -13,6 +13,9 @@ import Reloj from './hooks/Ciclovida/Reloj'
 import AjaxHooks from './hooks/EejmplosMircha/AjaxHooks'
 import { Carrusel } from './hooks/Carrusel/Carrusel'
 import { HookPerso } from './hooks/HooksPers/HookPerso'
+import CustomTextInput from './hooks/UseRef/Referencia'
+import Formulario from './Components/Ejemplos/Formulario'
+import Estilos from './Components/Ejemplos/Estillos'
 
 function App() {
   document.body.style.backgroundColor = '#4586e9';
@@ -23,8 +26,6 @@ function App() {
       {/* <Greeting name={'Jeampierk'}/>
       <Gretff name={'Jeampierk'}/>
        <TaskList></TaskList> */}
-
-
        {/* <Ejemplo1/> */}
        {/* <Ejemplo2></Ejemplo2> */}
        {/* <MiComponenteConContexto></MiComponenteConContexto> */}
@@ -39,7 +40,10 @@ function App() {
        {/* <Reloj></Reloj> */}
        {/* <AjaxHooks></AjaxHooks> */}
        {/* <Carrusel></Carrusel> */}
-       <HookPerso></HookPerso>
+       {/* <HookPerso></HookPerso> */}
+       {/* <CustomTextInput></CustomTextInput> */}
+       {/* <Formulario></Formulario> */}
+       <Estilos></Estilos>
       
 
        

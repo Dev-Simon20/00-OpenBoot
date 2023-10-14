@@ -1,22 +1,32 @@
+import { useRef } from "react";
 function CustomTextInput(props) {
-    // textInput debe estar declarado aquí para que la ref pueda hacer referencia a este
-    let textInput = useRef(null);
-  
-    function handleClick() {
-      textInput.current.focus();
+
+     let refMenubtn = useRef(null);
+     let refMenu = useRef(null);
+    
+    function handletoggel(e) {
+    if (refMenubtn.current.textContent==='Menu') {
+        refMenubtn.current.textContent='Cerrar'
+        refMenu.current.style.display='block'
     }
-  
+    else{
+        refMenubtn.current.textContent='Menu'
+        refMenu.current.style.display='none'
+    }
+    }
+     
     return (
-      <div>
-        <input
-          type="text"
-          ref={textInput} />
-        <input
-          type="button"
-          value="Focus the text input"
-          onClick={handleClick}
-        />
-      </div>
+      <>
+      <h2>Referencias</h2>
+      <button id="menu-btn" ref={refMenubtn} onClick={handletoggel}>Menu</button>
+      <nav id="menu" ref={refMenu} style={{display:"none"}}>
+        <a href="#">seccion 1</a><br />
+        <a href="#">seccion 2</a><br />
+        <a href="#">seccion 3</a><br />
+        <a href="#">seccion 4</a><br />
+        <a href="#">seccion 5</a><br />
+      </nav>
+      </>
     );
   }
 
