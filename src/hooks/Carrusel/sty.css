@@ -1,7 +1,7 @@
 .carrusel {
-    width: 700px; /* Ajusta el ancho según tus necesidades */
+    width: 200px; /* Ajusta el ancho según tus necesidades */
     height: auto; /* Ajusta la altura según tus necesidades */
-    transition: opacity 3s ease-in-out; /* Transición de opacidad de 3 segundos */
+     /* Transición de opacidad de 3 segundos */
   }
   
   .carrusel img {
@@ -11,5 +11,10 @@
   }
   
   .ig {
-    transition: opacity 3s ease-in-out; /* Transición de opacidad de 3 segundos para la clase ig */
+     /* Transición de opacidad de 3 segundos para la clase ig */
+     
+
+  }
+  .ig:hover{
+    transform: scale(1.5);
   }

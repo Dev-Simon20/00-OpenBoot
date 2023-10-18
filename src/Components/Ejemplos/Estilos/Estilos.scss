@@ -1,0 +1,14 @@
+$color-sass:#bf4080;
+$color-sass-80:#bf408090;
+$color-sass-60:yellow;
+.bg-sass{
+    background-color: $color-sass;
+    transition:background-color 0.5s ease-in-out;
+    color: black;
+    &-parra{
+      background-color:$color-sass-60;
+    }
+    &:hover{
+        background-color: $color-sass-80;
+    } 
+}

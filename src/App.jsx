@@ -15,7 +15,7 @@ import { Carrusel } from './hooks/Carrusel/Carrusel'
 import { HookPerso } from './hooks/HooksPers/HookPerso'
 import CustomTextInput from './hooks/UseRef/Referencia'
 import Formulario from './Components/Ejemplos/Formulario'
-import Estilos from './Components/Ejemplos/Estillos'
+import CompStyle from './Components/Ejemplos/Compo/CompStyle'
 
 function App() {
   document.body.style.backgroundColor = '#4586e9';
@@ -43,8 +43,8 @@ function App() {
        {/* <HookPerso></HookPerso> */}
        {/* <CustomTextInput></CustomTextInput> */}
        {/* <Formulario></Formulario> */}
-       <Estilos></Estilos>
-      
+       {/* <Estilos></Estilos> */}
+      <CompStyle></CompStyle>
 
        
     </>
